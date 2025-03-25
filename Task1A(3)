@@ -1,0 +1,9 @@
+class Solution:
+    def judgeCircle(self, moves: str) -> bool:#default setting
+        c=0
+        if not moves.count('U') == moves.count("D"):
+            c+=1
+        if not moves.count('L') == moves.count('R'):
+            c+=1
+        return c==0
+# scrnshot drive link: https://drive.google.com/file/d/1Fz6ddlFolOHXJNi8qtM6rAnSayrcJNvr/view?usp=sharing
