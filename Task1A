@@ -18,3 +18,5 @@ class Solution:
         
         # Return True if stack is empty, False otherwise
         return not stack
+#screenshot drive link : https://drive.google.com/file/d/1zwomHKv8qZnGnxBiPOaErBciJj442F9c/view?usp=sharing
+
